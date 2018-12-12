@@ -25,7 +25,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "N8AQiccohYGZDEKU95h7KdEogU7wiejqwb7UeqeXTYKGNB6DcYt4cswDWWk1tp5Xka2HBumjUkueLNJWtTR1c2kKNhpCVZA",
+        "poolAddress": "N6E2HYTqp5Vh8FbzDHLRQnJZwU6VjZs6EeYjASWQF3KzSCPnVgF4zMF6GFVeTbGxCXaU4bg24UstgVbhXdUCH4tUAWQcfWG",
         "intAddressPrefix": null,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
@@ -103,7 +103,7 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 30,
+        "depth": 10,
         "poolFee": 0.5,
         "devDonation": 0.0,
         "networkFee": 0.0
@@ -133,7 +133,7 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 28082
+        "port": 41195
     },
 
     "redis": {
